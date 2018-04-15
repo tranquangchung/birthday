@@ -63,3 +63,72 @@ h2 {
     padding-left: 1px;
     float: left;
 }
+
+#process_box {
+    height: 60px;
+    width: 100px;
+}
+
+#process_box_0 {
+    height: 60px;
+    width: 70px;
+    padding-left: 0px;
+    float: left;
+}
+
+#process_box_1 {
+    padding-left: 1px;
+    float: left;
+}
+
+#plaintext {
+    height: 200px;
+    width: 400px;
+}
+
+.inputNumber {
+    height: 30px;
+    width: 30px;
+}
+
+#X_BOX {
+    height: 150px;
+    width: 30px;
+    float: left;
+}
+
+#Y_BOX {
+    height: 150px;
+    width: 30px;
+    float: left;
+    padding-left: 10px;
+}
+
+#check_box {
+    height: 215px;
+    width: 215px;
+    /*background: green;*/
+}
+
+#ANSWER_BOX {
+    height: 150px;
+    width: 60px;
+    float: left;
+    padding-left: 10px;
+}
+
+.answerbox {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.button {
+    height: 40px;
+    width: 60px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+}
+
+#button1 {
+    background-color: cornflowerblue;
+}

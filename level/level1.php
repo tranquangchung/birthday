@@ -211,7 +211,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $level = '
             <form action="level2.php" method="post">
            <!-- All your input fields here -->
-           <input type="submit" name="submit" value="Next">
+           <input type="submit" name="submit" value="Next Challenge">
             </form>
         ';
         echo '<br>';
