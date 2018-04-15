@@ -72,6 +72,14 @@ if(strtolower($name) == "dung" and $birthday == "20/04/1996"){
     echo '<br>';
     echo 'Month Key (third key): '. $month_key;
     echo '<br>';
+
+    $level = '
+        <form action="level/level1.php" method="post">
+       <!-- All your input fields here -->
+       <input type="submit" name="submit" value="Next">
+        </form>
+    ';
+    echo $level;
 }
 ?>
 </body>
