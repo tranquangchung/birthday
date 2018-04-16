@@ -46,7 +46,6 @@ function button1() {
     while (rd===rd1){
         rd = Math.floor((Math.random() * 10));
     }
-    rd=9;
     switch (rd){
         case 0:
             document.getElementById("button1").style.left = "300px";

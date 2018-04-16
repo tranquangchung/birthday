@@ -152,7 +152,7 @@ h2 {
 #ask_box {
     height: 600px;
     width: auto;
-    background: green;
+    /*background: green;*/
 }
 
 #quotes_box {

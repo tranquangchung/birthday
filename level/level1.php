@@ -4,6 +4,7 @@
 <!--* Date: 14/04/2018-->
 <!--* Time: 23:21-->
 <!--*/-->
+<!--happybirthday-->
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../CSS/main.css">
@@ -19,21 +20,47 @@ $name0 = $name1 = $name2 = $name3 = $name4 = $name5 = $name6 = $name7 = $name8 =
 $flag0 = $flag1 = $flag2 = $flag3 = $flag4 = $flag5 = $flag6 = $flag7 = $flag8 = $flag9 = $flag10 = $flag11 = $flag12 = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name0 = $_POST["name0"];
-    $name1 = $_POST["name1"];
-    $name2 = $_POST["name2"];
-    $name3 = $_POST["name3"];
-    $name4 = $_POST["name4"];
-    $name5 = $_POST["name5"];
-    $name6 = $_POST["name6"];
-    $name7 = $_POST["name7"];
-    $name8 = $_POST["name8"];
-    $name9 = $_POST["name9"];
-    $name10 = $_POST["name10"];
-    $name11 = $_POST["name11"];
-    $name12 = $_POST["name12"];
+    if(!empty($_POST["name0"])){
+        $name0 = $_POST["name0"];
+    }
+    if(!empty($_POST["name1"])){
+        $name1 = $_POST["name1"];
+    }
+    if(!empty($_POST["name2"])){
+        $name2 = $_POST["name2"];
+    }
+    if(!empty($_POST["name3"])){
+        $name3 = $_POST["name3"];
+    }
+    if(!empty($_POST["name4"])){
+        $name4 = $_POST["name4"];
+    }
+    if(!empty($_POST["name5"])){
+        $name5 = $_POST["name5"];
+    }
+    if(!empty($_POST["name6"])){
+        $name6 = $_POST["name6"];
+    }
+    if(!empty($_POST["name7"])){
+        $name7 = $_POST["name7"];
+    }
+    if(!empty($_POST["name8"])){
+        $name8 = $_POST["name8"];
+    }
+    if(!empty($_POST["name9"])){
+        $name9 = $_POST["name9"];
+    }
+    if(!empty($_POST["name10"])){
+        $name10 = $_POST["name10"];
+    }
+    if(!empty($_POST["name11"])){
+        $name11 = $_POST["name11"];
+    }
+    if(!empty($_POST["name12"])){
+        $name12 = $_POST["name12"];
+    }
 
-        function trueWord($id){
+    function trueWord($id){
             $str_trueWord = '<style type="text/css">%s{background-color: green;}</style>';
             $str_trueWord = sprintf($str_trueWord, $id);
             echo $str_trueWord;

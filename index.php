@@ -4,6 +4,9 @@
 <!--* Date: 14/04/2018-->
 <!--* Time: 23:21-->
 <!--*/-->
+<!--Name: dung || victoria-->
+<!--Birthday: 20/04/1996-->
+
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
@@ -22,7 +25,7 @@
             $nameErr = "Name is required";
         }else{
             $name = $_POST["name"];
-            if(strtolower($name) === "dung"){
+            if(strtolower($name) === "dung" or strtolower($name) === "victoria"){
                 $nameErr = "Correct";
             }else{
                 $nameErr = "Wrong";
@@ -61,7 +64,7 @@
 </form>
 
 <?php
-if(strtolower($name) == "dung" and $birthday == "20/04/1996"){
+if((strtolower($name) == "dung" or strtolower($name) === "victoria") and $birthday == "20/04/1996"){
     $namekey = "dung";
     $date_key = "20";
     $month_key = "04";
