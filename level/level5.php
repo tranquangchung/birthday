@@ -5,6 +5,7 @@
 <!--* Time: 23:21-->
 <!--*/-->
 <!--https://www.codecogs.com/latex/eqneditor.php-->
+<!--http://www.wolframalpha.com/input/?i=(x%5E2%2By%5E2-1)%5E3-x%5E2y%5E3%3D0-->
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../CSS/main.css">

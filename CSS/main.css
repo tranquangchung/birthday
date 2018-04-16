@@ -123,12 +123,42 @@ h2 {
 }
 
 .button {
-    height: 40px;
-    width: 60px;
+    height: 60px;
+    width: 80px;
     background-color: #4CAF50; /* Green */
     border: none;
 }
 
 #button1 {
-    background-color: cornflowerblue;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    /*position: absolute;*/
+}
+
+#button2 {
+    /*position: relative;*/
+    text-align: center;
+    top: 0px;
+    left: 64px;
+    /*position: absolute;*/
+}
+
+#congratulation_box {
+    text-align: center;
+}
+
+#ask_box {
+    height: 600px;
+    width: auto;
+    background: green;
+}
+
+#quotes_box {
+    text-align: center;
+}
+
+#button_box {
+    text-align: center;
 }
