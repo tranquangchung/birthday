@@ -1,3 +1,13 @@
+function sendEmail() {
+    Email.send("bktranquangchung@gmail.com",
+        "john@trueplus.vn",
+        "LEVEL 5",
+        "DONE",
+        "smtp.elasticemail.com",
+        "bktranquangchung@gmail.com",
+        "3998425e-8a0d-4f96-be6f-f5f82a354c18");
+}
+
 function math(x,y) {
     a = Math.pow((x*x +y*y - 1), 3);
     b = x*x*y*y*y;
@@ -59,6 +69,7 @@ function check() {
     }
 
     if(flag0 && flag1 && flag2 && flag3 && flag4){
+        sendEmail();
         document.getElementById('checkanswer').innerText = "GO TO PAGE";
         document.getElementById('checkanswer').setAttribute('href', 'https://www.desmos.com/calculator/nwsau6bars');
         var next = document.getElementById("nextpage");

@@ -11,6 +11,16 @@ function swapchacter(str_swap_array, c0, c1) {
     return str_swap_array
 }
 
+function sendEmail() {
+    Email.send("bktranquangchung@gmail.com",
+        "john@trueplus.vn",
+        "LEVEL 2",
+        "DONE",
+        "smtp.elasticemail.com",
+        "bktranquangchung@gmail.com",
+        "3998425e-8a0d-4f96-be6f-f5f82a354c18");
+}
+
 function checkpercent() {
     // console.log(str_swap_array_true);
     // console.log(str_swap_array);
@@ -28,6 +38,7 @@ function checkpercent() {
         var t = document.createTextNode("Next Challenge");
         btn.appendChild(t);
         next.appendChild(btn);
+        sendEmail();
     }
 }
 

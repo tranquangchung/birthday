@@ -1,3 +1,13 @@
+function sendEmail() {
+    Email.send("bktranquangchung@gmail.com",
+        "john@trueplus.vn",
+        "LEVEL 3",
+        "DONE",
+        "smtp.elasticemail.com",
+        "bktranquangchung@gmail.com",
+        "3998425e-8a0d-4f96-be6f-f5f82a354c18");
+}
+
 function load_cirphertext() {
     month_key=4;
     plaintext = "happy birthday to you! wishing you have a day filled with fun and delight!";
@@ -27,6 +37,7 @@ function check() {
     pt = document.getElementById('plaintext').value.trim().toLocaleLowerCase();
     console.log(pt)
     if (pt === plaintext){
+        sendEmail();
         document.getElementById('checkanswer').innerText = "CORRECT";
         var next = document.getElementById("nextpage");
         var btn = document.createElement("BUTTON");

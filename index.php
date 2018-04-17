@@ -9,6 +9,7 @@
 
 <html>
 <head>
+    <script language="javascript" src="/JS/index.js"></script>
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <title>
         Happy Birthday

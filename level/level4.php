@@ -10,6 +10,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="../CSS/main.css">
     <script language="javascript" src="../JS/puzzle_lv4.js"></script>
+    <script src="https://smtpjs.com/v2/smtp.js"></script>
     <title>
         Happy Birthday
     </title>
