@@ -8,6 +8,8 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../CSS/main.css">
+    <script language="javascript" src="../JS/puzzle_lv1.js"></script>
+    <script src="https://smtpjs.com/v2/smtp.js"></script>
     <title>
         Happy Birthday
     </title>
@@ -235,6 +237,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $flag11 == true and
         $flag12 == true
     ){
+        $email = '<script>sendEmail_lv1();</script>';
+        echo $email;
         $level = '
             <form action="level2.php" method="post">
            <!-- All your input fields here -->

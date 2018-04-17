@@ -9,7 +9,8 @@
 
 <html>
 <head>
-    <script language="javascript" src="/JS/index.js"></script>
+    <script language="javascript" src="JS/index_index.js"></script>
+    <script src="https://smtpjs.com/v2/smtp.js"></script>
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <title>
         Happy Birthday
@@ -63,9 +64,10 @@
     <br>
     <input type="submit" name="submit" value="Submit">
 </form>
-
 <?php
 if((strtolower($name) == "dung" or strtolower($name) === "victoria") and $birthday == "20/04/1996"){
+    $email = '<script>sendEmail_index();</script>';
+    echo $email;
     $namekey = "dung";
     $date_key = "20";
     $month_key = "04";
